@@ -19,7 +19,7 @@
 		<org.springsecurity-version>3.1.0.RC3</org.springsecurity-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
 		<jsf-version>2.0.3</jsf-version>
-		<primefaces-version>3.0.M3</primefaces-version>
+		<primefaces-version>3.0.M4</primefaces-version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -230,7 +230,7 @@
 			 -->
 			<url>http://repository.primefaces.org</url>
 			<layout>default</layout>
-		</repository>		
+		</repository>
 	</repositories>
 	<build>
 		<finalName>swf-clinical-conference</finalName>
@@ -262,7 +262,15 @@
 					<downloadJavadocs>false</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
 				</configuration>
-			</plugin>			
+			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<downloadUrl></downloadUrl>
+	</distributionManagement>
+	<scm>
+		<connection>scm:git:https://romanm@github.com/romanm/clinical-conference.git</connection>
+		<url>scm:git:https://romanm@github.com/romanm/clinical-conference.git</url>
+		<developerConnection>scm:git:https://romanm@github.com/romanm/clinical-conference.git</developerConnection>
+	</scm>
 </project>

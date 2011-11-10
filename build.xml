@@ -7,7 +7,7 @@
 	<property name="ivy.settings.file" value="${basedir}/../../build-spring-webflow/ivysettings.xml"/>
 
 	<property file="${basedir}/../../build.properties"/>
-	<property name="targetWarDir" location="target/swf-booking-faces"/>
+	<property name="targetWarDir" location="target/swf-clinical-conference"/>
 	<!--import file="${basedir}/../../spring-build/war/default.xml"/-->
 
 	<target name="publish"/>
